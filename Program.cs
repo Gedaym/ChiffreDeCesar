@@ -14,7 +14,7 @@ namespace ChiffreDeCesar
 
         static void ChiffreDeCesar()
         {
-            Console.WriteLine("Entrer une phrase à crypter :");
+            Console.WriteLine("Entrez une phrase à crypter :");
             string text = Console.ReadLine();
             text = text.ToUpper();
             string encodage = "";
